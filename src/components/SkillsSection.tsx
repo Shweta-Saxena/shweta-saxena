@@ -97,7 +97,7 @@ export default function SkillsSection() {
             <h3 className="text-2xl font-semibold mb-6 font-poppins text-sky-700 text-center">Professional Strengths</h3>
           </RevealOnScroll>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               "Team Leadership", 
               "Problem Solving", 
@@ -108,6 +108,29 @@ export default function SkillsSection() {
             ].map((strength, index) => (
               <ZoomIn key={index} delay={0.2 + (index * 0.15)}>
                 <Card className="border-none shadow-md hover:shadow-lg transition-all duration-300 bg-white">
+                  <CardContent className="p-4 text-center">
+                    <motion.p 
+                      className="font-medium text-slate-800" 
+                      whileHover={{ scale: 1.05 }}
+                    >
+                      {strength}
+                    </motion.p>
+                  </CardContent>
+                </Card>
+              </ZoomIn>
+            ))}
+          </div>
+          <div className="flex md:hidden justify-center items-center flex-wrap gap-4">
+          {[
+              "Team Leadership", 
+              "Problem Solving", 
+              "SEO Optimization", 
+              "Performance Optimization",
+              'Accessibility',
+              'Clean Code'
+            ].map((strength, index) => (
+              <ZoomIn key={index} delay={0.2 + (index * 0.15)}>
+                <Card className="border-none shadow-md hover:shadow-lg transition-all duration-300 bg-white basis-[50%]">
                   <CardContent className="p-4 text-center">
                     <motion.p 
                       className="font-medium text-slate-800" 
