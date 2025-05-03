@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { RevealOnScroll, SlideInFromLeft, SlideInFromRight, ZoomIn } from "./RevealAnimation";
+import { RevealOnScroll, ZoomIn } from "./RevealAnimation";
 import { motion } from "framer-motion";
 
 const skillCategories = [
@@ -101,8 +101,10 @@ export default function SkillsSection() {
             {[
               "Team Leadership", 
               "Problem Solving", 
-              "Clean Code", 
-              "Performance Optimization"
+              "SEO Optimization", 
+              "Performance Optimization",
+              'Accessibility',
+              'Clean Code'
             ].map((strength, index) => (
               <ZoomIn key={index} delay={0.2 + (index * 0.15)}>
                 <Card className="border-none shadow-md hover:shadow-lg transition-all duration-300 bg-white">
