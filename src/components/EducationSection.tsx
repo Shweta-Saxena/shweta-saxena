@@ -12,7 +12,7 @@ const education = [
     institution: "Dr. A.P.J. Abdul Kalam Technical University",
     location: "Lucknow, India",
     period: "2016 - 2020",
-    score: "79.90%"
+    score: "80%"
   },
   {
     degree: "12th Grade",

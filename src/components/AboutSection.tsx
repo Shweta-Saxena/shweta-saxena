@@ -19,7 +19,7 @@ export default function AboutSection() {
           <RevealOnScroll>
             <h2 className="section-heading text-center mx-auto">About Me</h2>
             <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-              Frontend Software Developer with over 4 years of experience creating responsive and 
+              Frontend Software Developer with over 3+ years of experience creating responsive and 
               user-friendly web applications.
             </p>
           </RevealOnScroll>
@@ -48,7 +48,7 @@ export default function AboutSection() {
                   transition={{ delay: 0.6, duration: 0.5 }}
                   viewport={{ once: true }}
                 >
-                  With over 4 years of professional experience, I have successfully led 
+                  With over 3+ years of professional experience, I have successfully led 
                   development teams and taken ownership of large-scale projects. My approach combines 
                   technical excellence with a deep understanding of user needs to create applications 
                   that are not only functional but also intuitive and enjoyable to use.
@@ -102,7 +102,7 @@ export default function AboutSection() {
                     </div>
                     <div>
                       <h4 className="font-medium text-slate-900">Experience</h4>
-                      <p className="text-slate-600">4+ Years</p>
+                      <p className="text-slate-600">3+ Years</p>
                     </div>
                   </motion.div>
                   

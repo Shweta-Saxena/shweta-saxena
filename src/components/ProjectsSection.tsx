@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { RevealOnScroll } from "./RevealAnimation";
+import { Link } from "react-router-dom";
 
 const projects = [
   {
@@ -19,6 +20,7 @@ const projects = [
       "Led a team of 3 developers, coordinating tasks and setting milestones"
     ],
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "React Hook Form", "Zod", "Shadcn UI", "Redux Toolkit"],
+    link: 'https://development-usmed-nextjs.appskeeper.in/'
   },
   {
     title: "The BodyShop",
@@ -31,6 +33,7 @@ const projects = [
       "Developed as a Progressive Web App (PWA) for offline functionality"
     ],
     technologies: ["Next.js", "React", "SSR", "SEO Optimization", "PWA", "Payment Integration"],
+    link: 'https://www.thebodyshop.in/'
   },
   {
     title: "The BodyShop CMS Panel",
@@ -43,6 +46,7 @@ const projects = [
       "Ensured optimal performance across devices"
     ],
     technologies: ["React", "JavaScript", "Material UI v4", "Responsive Design", "API Integration"],
+    link: 'https://bodyshopdevadmin.appskeeper.in/'
   }
 ];
 
@@ -120,9 +124,12 @@ export default function ProjectsSection() {
                 </CardContent>
                 
                 <CardFooter>
+                  <Link to={project?.link}>
                   <Button className="bg-sky-500 hover:bg-sky-600 text-white">
                     View Project Details
                   </Button>
+                  </Link>
+                 
                 </CardFooter>
                 
                 {/* Subtle line animation on hover */}

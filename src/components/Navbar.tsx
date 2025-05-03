@@ -130,7 +130,17 @@ export default function Navbar() {
                   "py-4 px-4 w-full text-center font-medium border-b border-slate-100",
                   activeSection === link.href.replace("#", "") ? "text-sky-600" : "text-slate-700"
                 )}
-                onClick={() => setIsOpen(false)}
+                // onClick={() => setIsOpen(false)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const targetId = link.href.replace("#", "");
+                  const section = document.getElementById(targetId);
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                  }
+                  // Wait before closing the menu
+                  setTimeout(() => setIsOpen(false), 300);
+                }}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05, duration: 0.2 }}

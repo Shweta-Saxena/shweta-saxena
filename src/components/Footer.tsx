@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-slate-400">Frontend Software Developer</p>
           </div>
           
-          <div className="flex space-x-6 mb-6 md:mb-0">
+          <div className="flex space-x-6 gap-4 justify-center flex-wrap mb-6 md:mb-0">
             <a href="#home" className="hover:text-sky-400 transition-colors">Home</a>
             <a href="#about" className="hover:text-sky-400 transition-colors">About</a>
             <a href="#skills" className="hover:text-sky-400 transition-colors">Skills</a>
@@ -30,7 +30,7 @@ export default function Footer() {
           
           <div className="flex space-x-4">
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/Shweta-Saxena" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-sky-400 transition-colors"
@@ -40,7 +40,7 @@ export default function Footer() {
               <Github size={20} />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/shweta-saxena-/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-sky-400 transition-colors"
