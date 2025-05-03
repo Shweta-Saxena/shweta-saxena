@@ -133,7 +133,7 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-sky-500/20 rounded-full blur-xl animate-pulse-slow"></div>
-              <div className="w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-sky-400/30 relative z-10">
+              <div className="w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-sky-400/30 relative z-10  mt-[30px] md:mt-auto">
                 <img
                   src="/lovable-uploads/998d88e7-4ca5-4fcb-8c4f-0e862a6b3f9f.png"
                   alt="Shweta Saxena"
