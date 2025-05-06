@@ -66,7 +66,7 @@ export default function ProjectsSection() {
       </div>
 
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto mb-12">
+        <div className="max-w-4xl mx-auto mb-12 text-center">
           <RevealOnScroll>
             <h2 className="section-heading text-center mx-auto text-white">Featured Projects</h2>
             <p className="text-center text-slate-300 mb-12 max-w-2xl mx-auto">

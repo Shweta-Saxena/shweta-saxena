@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function HeroSection() {
@@ -67,14 +67,14 @@ export default function HeroSection() {
             >
               <Typewriter
                 words={[
-                  "Frontend Software Developer specializing in modern web technologies and creating exceptional user experiences.",
+                  "Frontend Software Developer specializing in modern web technologies and creating exceptional user experiences",
                 ]}
                 loop={false}
                 cursor
-                cursorStyle="|"
+                cursorStyle="."
                 typeSpeed={50}
                 deleteSpeed={30}
-                delaySpeed={2000}
+                delaySpeed={62000}
               />
             </motion.p>
 
@@ -84,6 +84,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
+           
               <Button
                 onClick={scrollToAbout}
                 size="lg"
@@ -91,10 +92,19 @@ export default function HeroSection() {
               >
                 Explore My Portfolio <ArrowDown className="ml-2" />
               </Button>
+              <a href="/Shweta_Saxena.pdf" download>
+              <Button
+                size="lg"
+                className="bg-white border-sky-500 hover:bg-sky-600 text-sky-500 hover:text-white rounded-md px-8 py-6 font-medium"
+              >
+              Download My Resume <Download className="ml-2" />
+              </Button>
+              </a>
+            
 
               <div className="flex items-center gap-4 mt-4 md:mt-0">
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/Shweta-Saxena"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-white/20 p-3 rounded-full text-white transition-colors duration-300"
@@ -104,7 +114,7 @@ export default function HeroSection() {
                   <Github size={20} />
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/shweta-saxena-/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-white/20 p-3 rounded-full text-white transition-colors duration-300"

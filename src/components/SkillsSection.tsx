@@ -37,7 +37,7 @@ export default function SkillsSection() {
       <div className="absolute inset-0 -z-20 bg-grid-pattern opacity-10"></div>
       
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto mb-12">
+        <div className="max-w-4xl mx-auto mb-12 text-center">
           <RevealOnScroll>
             <h2 className="section-heading text-center mx-auto">Skills & Expertise</h2>
             <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
