@@ -9,8 +9,23 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
+    title: "Drift",
+    period: "March 2025 - Present",
+    description: "Drift is a robust, government-backed CRM application designed for tracking and managing disaster recovery efforts across various councils and states in Australia. Developed primarily for use by government bodies, the platform enables comprehensive monitoring of disaster events, assessments, and funding disbursements over time.",
+    contributions: [
+      'Leveraged AI tools (e.g., ChatGPt, Github Copilot) to accelerate front-end development workflows, reducing development time by up to 30%',
+      'Integrated AI-assisted code generation adn debugging into daily tasks, improving code quality nd productivity',
+      'Utilized AI for rapid prototyping, UI/UX suggestions and documentation, enhancing project delivery speed and cross-team collabortion.',
+      "Developed using React js 19, Tailwind CSS, and TypeScript",
+      "Implemented React Hook Form and Formik for form validation",
+      "Employed Redux Toolkit and Redux Persist for state management",
+    ],
+    technologies: ["React js 19", "TypeScript", "Tailwind CSS", "React Hook Form", 'Formik', "Redux Toolkit"],
+    link: 'https://drift-frontend-qa.appskeeper.in/login'
+  },
+  {
     title: "US Med Premium",
-    period: "Feb 2024 - Present",
+    period: "Feb 2024 - Feb 2025",
     description: "A comprehensive patient management system with robust features for managing patient records, appointments, and medical histories.",
     contributions: [
       "Developed using Next.js 14, Tailwind CSS, and TypeScript",
