@@ -35,7 +35,7 @@ const projects = [
       "Led a team of 3 developers, coordinating tasks and setting milestones"
     ],
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "React Hook Form", "Zod", "Shadcn UI", "Redux Toolkit"],
-    link: 'https://development-usmed-nextjs.appskeeper.in/'
+    link: 'https://www.usamedpremium.com/#gref'
   },
   {
     title: "The BodyShop",
